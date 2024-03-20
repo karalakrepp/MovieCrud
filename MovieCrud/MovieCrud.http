@@ -1,0 +1,6 @@
+@MovieCrud_HostAddress = http://localhost:5067
+
+GET {{MovieCrud_HostAddress}}/movies/
+Accept: application/json
+
+###

@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "MovieCrud.Controllers.MoviesController",
+    "Method": "AddMovie",
+    "RelativePath": "api/Movies",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "BusinessLayer.Dtos.Request.MovieReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieCrud.Controllers.MoviesController",
+    "Method": "GetMovieById",
+    "RelativePath": "api/Movies/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieCrud.Controllers.MoviesController",
+    "Method": "UpdateMovie",
+    "RelativePath": "api/Movies/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "req",
+        "Type": "BusinessLayer.Dtos.Request.MovieReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
