@@ -9,7 +9,7 @@ public class Context :  DbContext
     {
 
 
-        optionsBuilder.UseNpgsql("Server=localhost;Port=5433;Database=MovieCrudDotnet;;Username=postgres;Password=12345678");
+        optionsBuilder.UseNpgsql("Server=host;Port=port;Database=dbname;;Username=yourusername;Password=yourpass");
 
     }
     public DbSet <Movie> Moviess { get; set; }
